@@ -1,0 +1,26 @@
+<div className="app_header">
+      <Navbar bg="dark" variant="dark" expand="sm">
+        <Container>
+          <Navbar.Brand href="#home">COVID-19 Tracker</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <form class="form-inline well">
+              <select class="form-control form-select" searchable="Search here.." >
+                    {/* {countries.map(country =>(
+                    <option value={country}>{country}</option>
+                  ))} */}
+                  <option value="India">India</option>
+              </select>
+         </form>
+          
+        
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#home">HOME</Nav.Link>
+              <Nav.Link href="#link">VACCINATION</Nav.Link>
+              <Nav.Link href="#link">NEWS</Nav.Link>
+              <Nav.Link href="#link">HELP</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      </div>
