@@ -8,7 +8,7 @@ function InfoBox({title,cases,total}) {
                 <CardContent >
 
                     {/* Title Corona cases */}
-                    <h4 className="infoBox_title" >
+                    <h4 className="infoBox_title">
                         {title}
                     </h4>
 

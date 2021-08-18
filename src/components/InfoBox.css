@@ -2,10 +2,17 @@ h2{
     color: white;
 }
 
-h4{
+.infoBox_title{
     color: white;
-    opacity: 80%;
+    /* opacity: 80%; */
     font-size: 0.9rem;
+    font-weight: normal;
+}
+.infoBox_total{
+    color: white;
+    /* opacity: 80%; */
+    font-size: 0.9rem;
+    font-weight: normal;
 }
 
 .infoBox_cases{
