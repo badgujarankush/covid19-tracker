@@ -1,0 +1,47 @@
+.table{
+    overflow: auto;
+    height: 400px;
+    /* justify-content: space-between; */
+    scroll-behavior: smooth;
+}
+
+thead th{
+    background-color: #011c29;
+    position: sticky;
+    top:0; 
+    padding:0.5rem;
+    color: white;
+    width: auto;
+}
+
+ td{
+    padding:0.5rem;
+    color: white;
+    width: auto;
+    font-weight: lighter;
+}
+table{
+    width: auto;
+    justify-content: space-between;
+}
+.outerCard{
+    overflow:hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    height: 5px;
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #011c29;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #818181;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #818181;
+}

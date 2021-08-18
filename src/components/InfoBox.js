@@ -4,7 +4,7 @@ import './InfoBox.css'
 function InfoBox({title,cases,total}) {
     return (
         <div>
-            <Card className="infoBox" style={{ backgroundColor: "#011c29" }}>
+            <Card className="infoBox" style={{ backgroundColor: "#011c29"}}>
                 <CardContent >
                     {/* Title Corona cases */}
                     <Typography className="infoBox_title" >

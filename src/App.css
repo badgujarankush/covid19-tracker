@@ -1,14 +1,20 @@
 * {
   margin: 0;
 }
-
-h3 {
+h1{
+  color: white;
+}
+h3,h4 {
   font-weight: 100;
 }
-
+#home{
+  padding: 5%;
+  margin-bottom: 3%;
+}
 .navbar-custom {
   background-color: #212529;
 }
+
 .content {
   display: flex;
   flex-direction: row;
@@ -16,18 +22,83 @@ h3 {
   padding: 20px;
 }
 
-.app_right {
-  flex: 0.7;
+.graph{
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+  margin: auto;
 }
 
+.app_right {
+  flex: 0.9;
+}
+.appTable{
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.table-top input{
+  border-radius: 10px;
+  border-style: none;
+  border-width: 0;
+  width: auto;
+  height: 1.8rem;
+}
+.table-top input:focus{
+  outline: none;
+}
+.table-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
 .app_stats {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.vac-head{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.vaccine-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 @media (max-width: 990px) {
   .content {
     flex-direction: column;
+    margin-top: 10%;
+    justify-content: space-around;
   }
+  .vaccine-card{
+    flex-direction: column;
+  }
+  .table-top{
+    flex-direction: column;
+  }
+}
+
+#vaccine{
+  margin-bottom: 10%;
+  padding-top: 4.5%;
+}
+
+#help{
+  margin-top: 3%;
+
+}
+.help-head{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+footer p{
+  color: rgb(199, 199, 199);
+  text-align: center;
+  padding: 1rem;
 }

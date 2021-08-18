@@ -11,7 +11,7 @@ const Switch = props => {
           className="react-switch-checkbox"
         />
         <label
-          style={{ background: props.isOn && props.onColor }}
+          style={{ background: props.isOn  }}
           className="react-switch-label"
           htmlFor={"react-switch-new"}
         >
